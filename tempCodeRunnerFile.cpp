@@ -1,13 +1,11 @@
 #include<iostream>
-#include<vector>
+#include<vector>    
 using namespace std;
 int main(){
-    vector<int>vec;
-    vec.emplace_back(2);
-    vec.emplace_back(3);
-    vec.emplace_back(7);
-    vec.pop_back();
-    for(int val: vec){
-    cout<<val<<" ";
+    pair<int,pair<char,int>>p = {3,{'a','4'}};
+    cout<<p.first<<" ";
+    cout<<p.second.first<<" ";
+    cout<<p.second.second;
+
 }
-}
+
