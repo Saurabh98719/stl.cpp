@@ -1,28 +1,27 @@
-// #include<iostream>
-// #include<vector>
-// using namespace std;
-// int main(){
-//     vector<int>vec;
-//     vec.push_back(2);
-//     vec.push_back(3);
-//     vec.push_back(7);
-//     vec.pop_back();
-//     vec.pop_back();
-//     for(int val: vec){
-//     cout<<val<<" "<<endl;
-// }
-// }
+// // #include<iostream>
+// // #include<list>
+// // using namespace std;
+// // int main(){
+// //     list<int>l;
+// //     l.push_back(2);
+// //     l.push_back(6);
+// //     l.push_back(1);
+// //     l.pop_back();
+// // for(int val : l){
+// //         cout<<val<<" ";
+// //     }
+// // }
 
 // #include<iostream>
-// #include<vector>
+// #include<list>
 // using namespace std;
 // int main(){
-//     vector<int>vec;
-//     vec.push_back(2);
-//     vec.push_back(3);
-//     vec.push_back(7);
-//     vec.pop_back();
-//     for(int val: vec){
-//     cout<<val<<" "<<endl;
-// }
+//     list<int>l;
+//     l.push_back(2);
+//     l.push_back(6);
+//     l.push_back(1);
+//     l.pop_back();
+// for(int val : l){
+//         cout<<val<<" "<<endl;
+//     }
 // }
