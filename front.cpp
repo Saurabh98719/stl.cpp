@@ -1,15 +1,11 @@
-#include<iostream>
-#include<stack>
-using namespace std;
-int main(){
-    stack<int>s;
-    s.push(2);
-    s.push(3);
-    s.push(1);
-    while(!s.empty()){
-    cout<<s.top()<<" ";
-    s.pop();
-
-}
-cout<<"top"<<s.top();
-}
+// #include<iostream>
+// #include<deque>
+// using namespace std;
+// int main(){
+//     deque<int>d = {2 ,5, 6, 9};
+//     d.pop_back();
+//     for(int val : d){
+//         cout<<val<<" ";
+//     }
+//     cout<<"front"<<d.front();
+// }

@@ -1,35 +1,22 @@
 // #include<iostream>
-// #include<vector>
+// #include<deque>
 // using namespace std;
 // int main(){
-//     vector<int>vec = {2,5,9,5};
-//     vec.erase(vec.begin());
-//     for(int val : vec){
+//     deque<int>d = {2 ,5, 6, 9};
+//     d.erase(d.begin());
+//     for(int val : d){
 //         cout<<val<<" ";
 //     }
 // }
 
 // #include<iostream>
-// #include<vector>
+// #include<deque>
 // using namespace std;
 // int main(){
-//     vector<int>vec = {2,5,9,5};
-//     vec.erase(vec.begin() +2);
-//     for(int val : vec){
+//     deque<int>d = {2 ,5, 6, 9};
+//     d.erase(d.begin()+3);
+//     for(int val : d){
 //         cout<<val<<" ";
 //     }
+//     cout<<"back"<<d.back()<<" ";
 // }
-
-// #include<iostream>
-// #include<vector>
-// using namespace std;
-// int main(){
-//     vector<int>vec = {2,5,9,5};
-//     vec.erase(vec.begin() , vec.begin() +2);
-//     for(int val : vec){
-//         cout<<val<<" ";
-//     }
-// }
-
-
-
